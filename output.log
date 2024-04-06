@@ -1,0 +1,327 @@
+2024-04-06 20:23:58 - Running perceptron
+-- Creating percepton --
+	Perceptron=[Id=1, FunctionType=1, Bias=[Id=1, Value=1, Weight=0.348], SensoryNeurons=[]]
+-- Starting learning --
+	Iterating data
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=1
+		- LearningData=[Inputs=[1, 0], Target=-1]
+		- output=1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=1, Weight=0.09099999999999997], [Id=3, Value=0, Weight=0.109]]
+	-- Finished iteration --
+	Iterating data
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=1
+		- LearningData=[Inputs=[1, 0], Target=-1]
+		- output=-1
+		- LearningData=[Inputs=[0, 1], Target=-1]
+		- output=-1
+		- LearningData=[Inputs=[0, 0], Target=-1]
+		- output=-1
+	-- Finished iteration --
+-- Finished learning -- 
+
+-- Test learning perceptron --
+Input = [1, 1] | Output = 1 | Correct? True
+Input = [1, 0] | Output = -1 | Correct? True
+Input = [0, 1] | Output = -1 | Correct? True
+Input = [0, 0] | Output = -1 | Correct? True
+2024-04-06 20:23:58 - finished perceptron
+
+2024-04-06 20:28:51 - Running perceptron
+-- Creating percepton --
+	Perceptron=[Id=1, FunctionType=1, Bias=[Id=1, Value=1, Weight=0.311], SensoryNeurons=[]]
+-- Starting learning --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=1
+		- LearningData=[Inputs=[1, 0], Target=-1]
+		- output=1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=1, Weight=-0.491], [Id=3, Value=0, Weight=0.115]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=-1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=1, Weight=0.009000000000000008], [Id=3, Value=1, Weight=0.615]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=1
+		- LearningData=[Inputs=[1, 0], Target=-1]
+		- output=1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=1, Weight=-0.491], [Id=3, Value=0, Weight=0.615]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=-1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=1, Weight=0.009000000000000008], [Id=3, Value=1, Weight=1.115]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=1
+		- LearningData=[Inputs=[1, 0], Target=-1]
+		- output=1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=1, Weight=-0.491], [Id=3, Value=0, Weight=1.115]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=1
+		- LearningData=[Inputs=[1, 0], Target=-1]
+		- output=-1
+		- LearningData=[Inputs=[0, 1], Target=-1]
+		- output=1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=0, Weight=-0.491], [Id=3, Value=1, Weight=0.615]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=-1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=1, Weight=0.009000000000000008], [Id=3, Value=1, Weight=1.115]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=1
+		- LearningData=[Inputs=[1, 0], Target=-1]
+		- output=-1
+		- LearningData=[Inputs=[0, 1], Target=-1]
+		- output=1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=0, Weight=0.009000000000000008], [Id=3, Value=1, Weight=0.615]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=-1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=1, Weight=0.509], [Id=3, Value=1, Weight=1.115]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=1
+		- LearningData=[Inputs=[1, 0], Target=-1]
+		- output=1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=1, Weight=0.009000000000000008], [Id=3, Value=0, Weight=1.115]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=1
+		- LearningData=[Inputs=[1, 0], Target=-1]
+		- output=-1
+		- LearningData=[Inputs=[0, 1], Target=-1]
+		- output=1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=0, Weight=0.009000000000000008], [Id=3, Value=1, Weight=0.615]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=-1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=1, Weight=0.509], [Id=3, Value=1, Weight=1.115]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=1
+		- LearningData=[Inputs=[1, 0], Target=-1]
+		- output=-1
+		- LearningData=[Inputs=[0, 1], Target=-1]
+		- output=1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=0, Weight=0.509], [Id=3, Value=1, Weight=0.615]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=-1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=1, Weight=1.009], [Id=3, Value=1, Weight=1.115]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=1
+		- LearningData=[Inputs=[1, 0], Target=-1]
+		- output=1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=1, Weight=0.5089999999999999], [Id=3, Value=0, Weight=1.115]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=1
+		- LearningData=[Inputs=[1, 0], Target=-1]
+		- output=-1
+		- LearningData=[Inputs=[0, 1], Target=-1]
+		- output=-1
+		- LearningData=[Inputs=[0, 0], Target=-1]
+		- output=-1
+	-- Finished iteration --
+-- Finished learning -- 
+
+-- Test learning perceptron --
+Input = [1, 1] | Output = 1 | Correct? True
+Input = [1, 0] | Output = -1 | Correct? True
+Input = [0, 1] | Output = -1 | Correct? True
+Input = [0, 0] | Output = -1 | Correct? True
+2024-04-06 20:28:51 - finished perceptron
+
+2024-04-06 20:30:09 - Running perceptron
+-- Creating percepton --
+	Perceptron=[Id=1, FunctionType=1, Bias=[Id=1, Value=1, Weight=0.659], SensoryNeurons=[]]
+-- Starting learning --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=1
+		- LearningData=[Inputs=[1, 0], Target=-1]
+		- output=1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=1, Weight=0.387], [Id=3, Value=0, Weight=0.864]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=1
+		- LearningData=[Inputs=[1, 0], Target=-1]
+		- output=1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=1, Weight=-0.11299999999999999], [Id=3, Value=0, Weight=0.864]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=1
+		- LearningData=[Inputs=[1, 0], Target=-1]
+		- output=-1
+		- LearningData=[Inputs=[0, 1], Target=-1]
+		- output=1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=0, Weight=-0.11299999999999999], [Id=3, Value=1, Weight=0.364]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=-1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=1, Weight=0.387], [Id=3, Value=1, Weight=0.864]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=1
+		- LearningData=[Inputs=[1, 0], Target=-1]
+		- output=1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=1, Weight=-0.11299999999999999], [Id=3, Value=0, Weight=0.864]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=-1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=1, Weight=0.387], [Id=3, Value=1, Weight=1.3639999999999999]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=1
+		- LearningData=[Inputs=[1, 0], Target=-1]
+		- output=1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=1, Weight=-0.11299999999999999], [Id=3, Value=0, Weight=1.3639999999999999]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=1
+		- LearningData=[Inputs=[1, 0], Target=-1]
+		- output=-1
+		- LearningData=[Inputs=[0, 1], Target=-1]
+		- output=1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=0, Weight=-0.11299999999999999], [Id=3, Value=1, Weight=0.8639999999999999]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=-1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=1, Weight=0.387], [Id=3, Value=1, Weight=1.3639999999999999]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=1
+		- LearningData=[Inputs=[1, 0], Target=-1]
+		- output=-1
+		- LearningData=[Inputs=[0, 1], Target=-1]
+		- output=1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=0, Weight=0.387], [Id=3, Value=1, Weight=0.8639999999999999]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=-1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=1, Weight=0.887], [Id=3, Value=1, Weight=1.3639999999999999]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=1
+		- LearningData=[Inputs=[1, 0], Target=-1]
+		- output=1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=1, Weight=0.387], [Id=3, Value=0, Weight=1.3639999999999999]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=1
+		- LearningData=[Inputs=[1, 0], Target=-1]
+		- output=-1
+		- LearningData=[Inputs=[0, 1], Target=-1]
+		- output=1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=0, Weight=0.387], [Id=3, Value=1, Weight=0.8639999999999999]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=-1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=1, Weight=0.887], [Id=3, Value=1, Weight=1.3639999999999999]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=1
+		- LearningData=[Inputs=[1, 0], Target=-1]
+		- output=-1
+		- LearningData=[Inputs=[0, 1], Target=-1]
+		- output=1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=0, Weight=0.887], [Id=3, Value=1, Weight=0.8639999999999999]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=-1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=1, Weight=1.387], [Id=3, Value=1, Weight=1.3639999999999999]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=1
+		- LearningData=[Inputs=[1, 0], Target=-1]
+		- output=1
+		-- Update weights --
+			- Sensory neurons=[[Id=2, Value=1, Weight=0.887], [Id=3, Value=0, Weight=1.3639999999999999]]
+	-- Finished iteration --
+	-- Iterating data --
+		- LearningData=[Inputs=[1, 1], Target=1]
+		- output=1
+		- LearningData=[Inputs=[1, 0], Target=-1]
+		- output=-1
+		- LearningData=[Inputs=[0, 1], Target=-1]
+		- output=-1
+		- LearningData=[Inputs=[0, 0], Target=-1]
+		- output=-1
+	-- Finished iteration --
+-- Finished learning -- 
+
+-- Test learning perceptron --
+Input = [1, 1] | Output = 1 | Correct? True
+Input = [1, 0] | Output = -1 | Correct? True
+Input = [0, 1] | Output = -1 | Correct? True
+Input = [0, 0] | Output = -1 | Correct? True
+2024-04-06 20:30:09 - finished perceptron
+
