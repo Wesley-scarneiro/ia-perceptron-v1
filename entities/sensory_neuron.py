@@ -3,7 +3,6 @@ from configs.parameters import Parameters
 
 class SensoryNeuron:
 
-    __learning_rate = 0.0
     __id = 0
     
     def __init__(self,
