@@ -2,9 +2,11 @@
 
 Programa que simula o funcionamento de um perceptron simples que é capaz de resolver o problema do AND, por meio de um treinamento supervisionado.
 
-## Saídas
+## Execução
 
-Os dados de execução do programa são registrados no arquivo **ouput.log**
+Para iniciar o programa basta executar o arquivo **main.py**
+
+Os dados de execução do programa são registrados no arquivo **output.log**
 
 ## Problema do AND
 
@@ -34,7 +36,7 @@ Para que o perceptron seja capaz de resolver o problema do AND, é necessário e
 
 ## Algoritmo de treinamento
 
-O treinamento do perceptron é realizado pela classe Learn que implementa o seguinte algoritmo de treinamento:
+O treinamento do perceptron é realizado pela classe Learn que implementa o seguinte algoritmo:
 
     1 while(True):
     2     updated_weights = False
@@ -53,13 +55,13 @@ O **break** na linha **8** é responsável por parar a iteração do **for** na 
 
 O **break** na linha **10** é o responsável por para a iteração do **while** na linha **1** e finalizar o treinamento. Se a variável **updated_weights** é **false**, então o perceptron iterou sobre toda a coleção de dados sem a necessidade de alterar os seus pesos e portanto, classificou todas as entradas corretamente.
 
-## Ouput
+## Output
 
 Exemplo de uma saída do perceptron com poucas iterações de treinamento:
 
     2024-04-06 20:23:58 - Running perceptron
     -- Creating percepton --
-        Perceptron=[Id=1, FunctionType=1, Bias=[Id=1, Value=1, Weight=0.348], SensoryNeurons=[]]
+        Perceptron=[Id=1, Bias=[Id=1, Value=1, Weight=0.348], SensoryNeurons=[]]
     -- Starting learning --
         Iterating data
             - LearningData=[Inputs=[1, 1], Target=1]
