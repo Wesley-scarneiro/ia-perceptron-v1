@@ -13,7 +13,7 @@ class Learn:
     def _create_perceptron(self):
         logging.info("-- Creating percepton --")
         bias = SensoryNeuron(Parameters.bias_value, Parameters._weight_random())
-        percepton = Perceptron(bias, Parameters.activation_function)
+        percepton = Perceptron(bias)
         logging.info(f"\t{percepton}")
         return percepton
     

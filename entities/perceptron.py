@@ -7,11 +7,8 @@ class Perceptron:
 
     __id = 0
 
-    def __init__(self,
-            bias: SensoryNeuron,
-            functionType: int):
+    def __init__(self, bias: SensoryNeuron):
         self.__bias = bias
-        self.__functionType = functionType
         self.__sensory_neurons = []
         Perceptron.__id += 1
         self.__id = Perceptron.__id
@@ -48,5 +45,5 @@ class Perceptron:
             sensory_neuron.update_weight(target)
 
     def __str__(self):
-        string = f"Perceptron=[Id={self.__id}, FunctionType={self.__functionType}, Bias={self.__bias}, SensoryNeurons={self.__sensory_neurons}]"
+        string = f"Perceptron=[Id={self.__id}, Bias={self.__bias}, SensoryNeurons={self.__sensory_neurons}]"
         return string

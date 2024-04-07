@@ -9,8 +9,7 @@ def main():
         # Parâmetros de inicialização do treinamento
         Parameters.learning_rate = 0.5
         Parameters.bias_value = 1
-        Parameters.activation_function = 1
-
+        
         # Dados de treinamento e de teste
         data = [
             LearningData(
